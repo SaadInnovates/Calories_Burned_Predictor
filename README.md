@@ -59,7 +59,7 @@ It showcases an end-to-end ML pipeline — from data preprocessing and feature e
 | ML Library       | scikit-learn                         |
 | Data Handling    | Pandas, NumPy                        |
 | Visualization    | Matplotlib                           |
-| Deployment Tools | Joblib, gdown (model download)       |
+| Deployment Tools | Joblib (model download)       |
 
 ---
 
