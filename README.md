@@ -59,7 +59,21 @@ It showcases an end-to-end ML pipeline — from data preprocessing and feature e
 | ML Library       | scikit-learn                         |
 | Data Handling    | Pandas, NumPy                        |
 | Visualization    | Matplotlib                           |
-| Deployment Tools | Joblib (model download)       |
+| Deployment Tools | Joblib (model download)              |
+
+---
+
+## 📊 Model Evaluation
+
+The Multiple Linear Regression (MLR) model was evaluated on a test set using standard regression metrics:
+
+| Metric            | Score         |
+|-------------------|---------------|
+| **R² Score**       | 0.9688        |
+| **RMSE**           | 11.22 kcal    |
+
+- A high **R² Score** of **0.9688** indicates that the model explains approximately **97% of the variance** in calorie burn values.  
+- The **Root Mean Squared Error** of **11.22 kcal** suggests the model's average prediction error is quite low, making it suitable for practical fitness applications.
 
 
 
