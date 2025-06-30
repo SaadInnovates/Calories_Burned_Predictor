@@ -5,7 +5,7 @@ import pandas as pd
 # Load model
 model = joblib.load("calorie_predictor_model.joblib")
 
-st.title("🧮 Calorie Burn Predictor")
+st.title("Calorie Burn Predictor")
 st.markdown("""
 This app predicts the number of calories you burn during physical activity based on your personal metrics.
 
@@ -31,7 +31,7 @@ else:
     height_ft = st.number_input("Height (feet)", min_value=1, max_value=8, value=5)
     height_in = st.number_input("Additional inches", min_value=0, max_value=11, value=7)
     height_cm = round((height_ft * 30.48) + (height_in * 2.54), 2)
-    st.markdown(f"📏 Height converted to: **{height_cm} cm**")
+    st.markdown(f"Height converted to: **{height_cm} cm**")
 
 # Weight
 weight = st.number_input("Weight (kg)", min_value=20.0, max_value=200.0, value=70.0)
@@ -41,7 +41,7 @@ duration = st.number_input("Exercise Duration (minutes)", min_value=1.0, max_val
 
 # Heart Rate
 heart_rate = st.number_input("Average Heart Rate (bpm)", min_value=40.0, max_value=200.0, value=110.0)
-with st.expander("📖 How to measure Heart Rate (BPM)?"):
+with st.expander("How to measure Heart Rate (BPM)?"):
     st.markdown("""
     **To manually measure your heart rate:**
     
@@ -61,7 +61,7 @@ body_temp = st.number_input("Body Temperature (°C)", min_value=30.0, max_value=
 # BMI calculation
 height_m = height_cm / 100
 bmi = round(weight / (height_m ** 2), 2)
-st.markdown(f"🧮 Calculated BMI: **{bmi}**")
+st.markdown(f"Calculated BMI: **{bmi}**")
 
 # Prepare input
 input_df = pd.DataFrame([[
