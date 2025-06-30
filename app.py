@@ -6,7 +6,15 @@ import pandas as pd
 model = joblib.load("calorie_predictor_model.joblib")
 
 st.title("🧮 Calorie Burn Predictor")
-st.markdown("Enter your details to estimate calories burned during physical activity.")
+st.markdown("""
+This app predicts the number of calories you burn during physical activity based on your personal metrics.
+
+💡 **How it works:**  
+Enter your basic details like age, gender, weight, height, heart rate, and workout duration.  
+The app will calculate your **BMI** and use a trained machine learning model to estimate your **calories burned**.
+
+> ⚠️ This is a predictive tool and should not replace medical or fitness advice.
+""")
 
 # Gender
 gender = st.radio("Gender", ["Male", "Female"])
