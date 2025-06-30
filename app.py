@@ -72,3 +72,4 @@ input_df = pd.DataFrame([[
 if st.button("Predict Calories Burned"):
     prediction = model.predict(input_df)
     st.success(f"🔥 Estimated Calories Burned: **{prediction[0]:.2f} kcal**")
+
