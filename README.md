@@ -2,7 +2,7 @@
 
 A Streamlit web app that predicts the number of **calories burned** during a workout session using a **Multiple Linear Regression (MLR)** model.
 
-[🔗 Live App](https://lnkd.in/dQVcW4hD) • [📂 GitHub Repo](https://lnkd.in/dyh3jS_T)
+[🔗 Live App](https://lnkd.in/dQVcW4hD) 
 
 ---
 
