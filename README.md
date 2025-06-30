@@ -61,16 +61,5 @@ It showcases an end-to-end ML pipeline — from data preprocessing and feature e
 | Visualization    | Matplotlib                           |
 | Deployment Tools | Joblib (model download)       |
 
----
 
-## 🚀 Getting Started
 
-### 🔧 Prerequisites
-- Python 3.8 or later  
-- pip
-
-### 📦 Installation
-```bash
-git clone https://github.com/yourusername/calorie-burned-predictor.git
-cd calorie-burned-predictor
-pip install -r requirements.txt
